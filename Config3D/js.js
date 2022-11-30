@@ -21,45 +21,53 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /* ************************************************ */
 var selectedElement;
+var indexElement;
 
-const fcoque_images = new Array(
+const fcoque_images = [
     "blanc",
     "beige",
     "bleu"
-);
+];
 
-const fmur_images = new Array(
+const fmur_images = [
     "chene",
     "bois_clair",
     "bois_blanc"
-);
+];
 
-const fpaillase_images = new Array(
+const fpaillase_images = [
     "chene",
     "bois_clair",
     "bois_blanc"
-);
+];
 
-const fsofa_images = new Array(
+const fsofa_images = [
     "beige",
     "blanc",
-);
+];
 
-const fsol_images = new Array(
+const fsol_images = [
     "parquet",
     "blanc",
-);
+];
 
-const refElements_Images = new Array(["f_coque", "f_mur", "f_paillase", "f_sofa", "f_sol"], [fcoque_images, fmur_images, fpaillase_images, fsofa_images, fsol_images])
+const refElements_Images = [ ["f_coque", "f_mur", "f_paillase", "f_sofa", "f_sol"], [fcoque_images, fmur_images, fpaillase_images, fsofa_images, fsol_images] ];
 
 /* ************************************************ */
 
 function setElement(param){
     selectedElement = param;
-    
-    var texte;
 
+    const fun = (element) => element == selectedElement;
+    indexElement = refElements_Images[0].findIndex(fun);
+
+    ar = refElements_Images[1][indexElement];
+
+    var texte ="";
     
+    ar.forEach(element => {
+        texte += element + " ";
+    });
 
     document.getElementById('aaa').textContent = texte;
 }
@@ -78,4 +86,4 @@ $(document).ready(function(){
 
 });
 
-//setElement("")
+setElement("f_coque")
