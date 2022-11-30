@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <script src="https://itc-dev.kbmax.com/embed.min.js"></script>
+
+
+
     <title>Configurateur</title>
 </head>
 <body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        //start the embed
+        var config = new kbmax.ConfiguratorEmbed({
+            kbmaxUrl: "https://itc-dev.kbmax.com",
+            elementId: "viewer",
+            configuratorId: 78,
+            showHeader: false,
+            showDrawer: false,
+            showMove: false,
+            bindToFormSelector: "",
+            loadStyle: "image",
+            loadImage: "",
+        });
+        /*
+        config.setFields({
+            "FieldName": "FieldValue"
+        });   
+        */
+    });
+</script>
+<div id="viewer" style="height: 800px;"></div>
     
 </body>
 </html>
