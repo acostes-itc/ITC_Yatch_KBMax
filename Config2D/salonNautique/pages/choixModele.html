@@ -7,23 +7,8 @@
     <link href="../styles/modele.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>yacht</title>
-    <script type="text/javascript">
-        /* fonction : affichage d'une image dans un div */
-        function ChangeImage(divId,imageNom){
-            var divId; /* id du div qui va contenir la grande image */
-            var imageNom; /* nom de la grande image */
-            var imageRep = '../images/'; /* repertoire contenant les images (pour ne pas avoir à l'écrire à chaque fois dans la fonction */
-            /* on met l'image dans le div */
-            var contenuhtml = '<img src="'+imageRep+imageNom+'" alt="" onclick="ViderDiv(\'div-photo\');" />';
-            document.getElementById(divId).innerHTML = contenuhtml;
-        }	
-        /* fonction : vidage du contenu d'un div */
-        function ViderDiv(divId){
-            var divId; /* id du div à vider */
-            /* on vide le div */
-            document.getElementById(divId).innerHTML = '';
-        }	
-        </script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src="modele.js"></script>
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
@@ -56,20 +41,22 @@
         </div>
         <div class="row">
             <div class="col-1"><div class="spaceButton"></div></div>
-            <div class="col-6"><button type="button" class="btn btn-light btn-lg"><p class="btnTxt">E 1250</p></button></div></div>
+            <div class="col-6"><button type="button" id="e1250" value="0" class="btn btn-light btn-lg"><p class="btnTxt">E 1250</p></button></div></div>
             <div class="col-4"></div>
         </div>
         <div class="row">
             <div class="col-1"><div class="spaceButton"></div></div>
-            <div class="col-6"><button type="button" class="btn btn-light btn-lg" ><p class="btnTxt">E 1500</p></button></div>
+            <div class="col-6"><button type="button" id="e1500" value="1" class="btn btn-light btn-lg" ><p class="btnTxt">E 1500</p></button></div>
             <div class="col-4"></div>
         </div>
         <div class="row">
             <div class="col-1"><div class="spaceButton"></div></div>
-            <div class="col-6"><button type="button" class="btn btn-light btn-lg"><p class="btnTxt">E 1750</p></button></div>
+            <div class="col-6"><button type="button" id="e1750" value="2" class="btn btn-light btn-lg"><p class="btnTxt">E 1750</p></button></div>
             <div class="col-4"></div>
         </div>
+        <div id="img"><img id="src" src="../images/e1250.jpg"></div>
     </div>
+    
     
     
 
