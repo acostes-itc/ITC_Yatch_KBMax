@@ -1,0 +1,46 @@
+body{
+    background-color: #134192 !important;
+    padding-top: 70px;
+}
+
+.fleche{
+    margin-top: 0px;
+    width: 75px;
+    height: 75px;
+    float: right;
+}
+
+.titre{
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+.titre2{
+    color: white;
+    font-size: 35px;
+}
+
+.titre3{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.underline{
+    margin-top: -50px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.space{
+    height: 180px;
+}
+
+.spaceButton{
+    height: 120px;
+}
+
+.btnTxt{
+    font-weight: bold;
+}
