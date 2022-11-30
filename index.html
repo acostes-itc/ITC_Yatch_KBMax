@@ -2,20 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation</title>
 </head>
 <body>
     <style>
+        .lien{
+            text-decoration:none;
+            font-style: italic;
+        }
 
     </style>
 
-    <h1> Navigation :</h1>
-    <div id="config3D">
-        <p>Configurateur 3D : </p>
+    <!--
+        " &lt; " = '<'
+        " &gt; " = '>'
+    -->
+    <center><h1> Navigation :</h1></center>
 
+    <ul>
+    <div id="config3D">
+        <li><p>Configurateur 3D : <a class="lien" href="./Config3D/index.html">ici</a></p></li>
     </div>
+    <br>
+    <div id="config2D">
+        <li><p>Configurateur 2D : <a class="lien" href="./Config2D/">ici</a></p></li>
+    </div>
+    </ul>
 
 </body>
 </html>
