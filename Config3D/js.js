@@ -51,7 +51,7 @@ const fsol_images = [
     "blanc",
 ];
 
-const refElements_Images = [ ["f_coque", "f_mur", "f_paillase", "f_sofa", "f_sol"], [fcoque_images, fmur_images, fpaillase_images, fsofa_images, fsol_images] ];
+const refElements_Textures = [ ["f_coque", "f_mur", "f_paillase", "f_sofa", "f_sol"], [fcoque_images, fmur_images, fpaillase_images, fsofa_images, fsol_images] ];
 
 /* ************************************************ */
 
@@ -59,9 +59,9 @@ function setElement(param){
     selectedElement = param;
 
     const fun = (element) => element == selectedElement;
-    indexElement = refElements_Images[0].findIndex(fun);
+    indexElement = refElements_Textures[0].findIndex(fun);
 
-    ar = refElements_Images[1][indexElement];
+    ar = refElements_Textures[1][indexElement];
 
     var texte ="";
     
@@ -86,4 +86,4 @@ $(document).ready(function(){
 
 });
 
-setElement("f_coque")
+//setElement("f_coque");
