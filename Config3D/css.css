@@ -8,9 +8,10 @@ html, body {
 }
 
 #viewer {
-    height: 30em;
+    height: 28em;
     width: 50em;
     overflow: hidden;
+    margin-top: 4em;
 }
 
 .viewer::-webkit-scrollbar {
@@ -42,6 +43,7 @@ html, body {
     justify-content: space-around;
     padding-left: 0;
     padding-right: 0;
+    margin-top: 2em;
 }
 
 .titre{
@@ -62,9 +64,15 @@ html, body {
 }
 
 .card{
-    background-color: rgb(231, 229, 229);
+    background-color: rgb(199, 199, 199);
+    margin-top: 4em;
+    margin-left: 3.5em;
 }
 
 .btn{
     margin-right: 0.5em;
+}
+
+.carousel-inner{
+    margin-top: -3.5em;
 }
