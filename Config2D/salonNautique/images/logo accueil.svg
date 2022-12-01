@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 33.62 25.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Dégradé_sans_nom_50);
+      }
+
+      .cls-2 {
+        fill: url(#Dégradé_sans_nom_61);
+      }
+
+      .cls-3 {
+        fill: url(#Dégradé_sans_nom_57);
+      }
+
+      .cls-4 {
+        fill: url(#Dégradé_sans_nom_61-2);
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom_61" data-name="Dégradé sans nom 61" x1="-13.62" y1="13.41" x2="35.65" y2="21.33" gradientUnits="userSpaceOnUse">
+      <stop offset=".05" stop-color="#ff1556"/>
+      <stop offset=".47" stop-color="#ff1556"/>
+      <stop offset=".49" stop-color="#dc255e"/>
+      <stop offset=".53" stop-color="#a3406c"/>
+      <stop offset=".57" stop-color="#745677"/>
+      <stop offset=".6" stop-color="#506780"/>
+      <stop offset=".63" stop-color="#367386"/>
+      <stop offset=".66" stop-color="#267b8a"/>
+      <stop offset=".68" stop-color="#217e8c"/>
+      <stop offset=".78" stop-color="#0f7e90"/>
+      <stop offset=".89" stop-color="#037e93"/>
+      <stop offset="1" stop-color="#007e94"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_57" data-name="Dégradé sans nom 57" x1="21.8" y1="1.64" x2="-8.5" y2="17.04" gradientUnits="userSpaceOnUse">
+      <stop offset=".05" stop-color="#ff1556"/>
+      <stop offset=".05" stop-color="#fd1556"/>
+      <stop offset=".12" stop-color="#ca2d62"/>
+      <stop offset=".19" stop-color="#9d426d"/>
+      <stop offset=".26" stop-color="#757"/>
+      <stop offset=".33" stop-color="#57637e"/>
+      <stop offset=".41" stop-color="#3f6f84"/>
+      <stop offset=".49" stop-color="#2e7788"/>
+      <stop offset=".58" stop-color="#247c8b"/>
+      <stop offset=".68" stop-color="#217e8c"/>
+      <stop offset=".78" stop-color="#0f7e90"/>
+      <stop offset=".89" stop-color="#037e93"/>
+      <stop offset="1" stop-color="#007f94"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_61-2" data-name="Dégradé sans nom 61" x1="48.77" y1="21.83" x2="11.16" y2=".38" xlink:href="#Dégradé_sans_nom_61"/>
+    <linearGradient id="Dégradé_sans_nom_50" data-name="Dégradé sans nom 50" x1="-9.82" y1="32.1" x2="50.86" y2="5.88" gradientUnits="userSpaceOnUse">
+      <stop offset=".37" stop-color="#d40076"/>
+      <stop offset=".53" stop-color="#dc0063"/>
+      <stop offset=".85" stop-color="#f20035"/>
+      <stop offset="1" stop-color="#ff001c"/>
+    </linearGradient>
+  </defs>
+  <polygon class="cls-2" points="0 8.4 16.85 17.09 16.85 25.5 0 16.32 0 8.4"/>
+  <polygon class="cls-3" points="0 8.4 16.85 0 16.85 8.4 8.43 12.75 0 8.4"/>
+  <polygon class="cls-4" points="16.85 0 33.62 8.4 25.79 12.4 16.85 8.4 16.85 0"/>
+  <polygon class="cls-1" points="33.62 8.4 33.62 16.95 16.85 25.5 16.85 17.09 33.62 8.4"/>
+</svg>

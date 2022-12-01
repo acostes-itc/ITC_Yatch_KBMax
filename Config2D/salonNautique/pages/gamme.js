@@ -1,7 +1,7 @@
 const images = new Array(
-    "../images/evasion.png",
-    "../images/elegance.png",
-    "../images/prestige.png"
+    "../images/evasion.jpg",
+    "../images/elegance.jpg",
+    "../images/prestige.jpg"
 );
 
 function setElement(param){

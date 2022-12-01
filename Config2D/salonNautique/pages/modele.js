@@ -1,5 +1,5 @@
 const images = new Array(
-    "../images/e1250.jpg",
+    "../images/e1250.png",
     "../images/e1500.jpg",
     "../images/e1750.png"
 );
