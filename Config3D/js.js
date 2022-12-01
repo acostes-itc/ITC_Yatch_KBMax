@@ -129,3 +129,5 @@ $(document).ready(function(){
 });
 
 setElement("f_sofa");
+
+// display : hidden / visible
