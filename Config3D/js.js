@@ -25,7 +25,7 @@ var indexElement;
 
 const fcoque_images = [
     ["blanc", "beige", "bleu"],
-    ["./images/coque_blanc.svg", "./images/coque_beige.svg", "./images/coque_bleu.svg"]
+    ["./images/coque_blanc.png", "./images/coque_beige.svg", "./images/coque_bleu.svg"]
 ];
 
 const fmur_images = [ 
