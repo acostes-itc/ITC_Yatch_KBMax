@@ -63,13 +63,16 @@ function setElement(param){
 
     ar = refElements_Textures[1][indexElement];
 
-    var texte ="";
-    
-    ar.forEach(element => {
-        texte += element + " ";
-    });
+    /*
+    console.log(selectedElement);
+    console.log(indexElement);
+    console.log(ar);
+    */
 
-    document.getElementById('aaa').textContent = texte;
+    var texte ="";
+    ar.forEach(element => { texte += element + " "; });
+
+    //document.getElementById('aaa').textContent = texte;
 }
 
 $(document).ready(function(){
@@ -86,4 +89,11 @@ $(document).ready(function(){
 
 });
 
-//setElement("f_coque");
+setElement("f_mur");
+
+
+/*
+    <img src="./images/chene.png" style="border-radius: 40%;" height="80" width="80"/>
+
+*/
+// <input type="image" src="../images/bois.png" style="border: double; border-radius: 50%;" height="170" width="170"/>
