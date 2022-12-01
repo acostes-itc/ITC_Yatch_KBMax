@@ -24,31 +24,28 @@ var selectedElement;
 var indexElement;
 
 const fcoque_images = [
-    "blanc",
-    "beige",
-    "bleu"
+    ["blanc", "beige", "bleu"],
+    ["./images/coque_blanc.svg", "./images/coque_beige.svg", "./images/coque_bleu.svg"]
 ];
 
-const fmur_images = [
-    "chene",
-    "bois_clair",
-    "bois_blanc"
+const fmur_images = [ 
+    ["chene", "bois_clair", "bois_blanc"],
+    ["./images/chene.png", "./images/bois_clair.png", "./images/bois_blanc.png"]
 ];
 
 const fpaillase_images = [
-    "chene",
-    "bois_clair",
-    "bois_blanc"
+    ["chene", "bois_clair", "bois_blanc"],
+    ["./images/chene.png", "./images/bois_clair.png", "./images/bois_blanc.png"]
 ];
 
 const fsofa_images = [
-    "beige",
-    "blanc",
+    ["beige", "blanc"],
+    ["./images/sofa_beige.png", "./images/sofa_blanc.png"]
 ];
 
 const fsol_images = [
-    "parquet",
-    "blanc",
+    ["parquet", "blanc"],
+    ["./images/parquet.png", "./images/sol_blanc.png"]
 ];
 
 const refElements_Textures = [ ["f_coque", "f_mur", "f_paillase", "f_sofa", "f_sol"], [fcoque_images, fmur_images, fpaillase_images, fsofa_images, fsol_images] ];
@@ -58,20 +55,42 @@ const refElements_Textures = [ ["f_coque", "f_mur", "f_paillase", "f_sofa", "f_s
 function setElement(param){
     selectedElement = param;
 
-    const fun = (element) => element == selectedElement;
+    var fun = (element) => element == selectedElement;
     indexElement = refElements_Textures[0].findIndex(fun);
 
-    ar = refElements_Textures[1][indexElement];
+    listTex = refElements_Textures[1][indexElement];
 
-    /*
+    console.log("***");
     console.log(selectedElement);
     console.log(indexElement);
-    console.log(ar);
-    */
+    console.log(listTex);
+    console.log("***");
+    
 
-    var texte ="";
-    ar.forEach(element => { texte += element + " "; });
+    var htmlLigne = "";
+    var htmlDiv = "";
 
+    listTex[0].forEach(tex => {
+        fun = (element) => element == tex;
+        indexTex = listTex[0].findIndex(fun);
+
+        htmlLigne = "<img class='texture' id='"+ refElements_Textures[0][indexElement]+"_"+tex +"' src='"+ listTex[1][indexTex] + "'/>";
+        console.log(htmlLigne);
+
+        htmlDiv += htmlLigne + "\n";
+    });
+
+    console.log(htmlDiv);
+
+    document.getElementById('textureSelector').innerHTML = htmlDiv;
+    
+/*
+    <img class ="texture" id = 'f_mur_chene' src="./images/chene.png"/>
+
+*/
+
+    //var texte ="";
+    //listTex[0].forEach(element => { texte += element + " "; });
     //document.getElementById('aaa').textContent = texte;
 }
 
@@ -89,11 +108,4 @@ $(document).ready(function(){
 
 });
 
-setElement("f_mur");
-
-
-/*
-    <img src="./images/chene.png" style="border-radius: 40%;" height="80" width="80"/>
-
-*/
-// <input type="image" src="../images/bois.png" style="border: double; border-radius: 50%;" height="170" width="170"/>
+setElement("f_coque");
