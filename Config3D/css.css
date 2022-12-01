@@ -25,7 +25,6 @@ html, body {
 }
 
 .textureSelector{
-    border: 2px solid white;
 
     display: flex;
 
@@ -38,7 +37,8 @@ html, body {
 
 .elementSelector{
     display: flex;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
+    align-items: center;
     justify-content: space-around;
     padding-left: 0;
     padding-right: 0;
@@ -59,4 +59,12 @@ html, body {
     width: 80px;
     height: 80px;
     
+}
+
+.card{
+    background-color: rgb(231, 229, 229);
+}
+
+.btn{
+    margin-right: 0.5em;
 }
