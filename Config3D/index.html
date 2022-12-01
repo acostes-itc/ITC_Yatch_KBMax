@@ -18,30 +18,73 @@
     <title>Yacht</title>
 </head>
 <body>
-    <div class="container text-center">
+    <div class="container ">
         <div class="col-1"><a href="../index.html"><img class="logo" src="../Config2D/salonNautique/images/logo accueil.svg"></a></div>
         <p class="titre">Personnalisez votre projet</p>
         <p class="titre2">Avec toutes les compositions et options</p>
     </div>
+
+    <div id="ariane" class="row">
+        <div class="col-1"><button id="btnari" class="btn btn-light" type="button" >Gamme</button></div>
+        <div class="col-1"><button id="btnari" class="btn btn-light" type="button" >Modèle</button></div>
+        <div class="col-1"><button id="btnari" class="btn btn-light" type="button" style="font-weight:bold;">Intérieur</button></div>
+        <div class="col-1"><button id="btnari" class="btn btn-light" type="button" >Extérieur</button></div>
+        <div class="col-1"><button id="btnari" class="btn btn-light" type="button" >Motorisation</button></div>
+        <div class="col-1"><button id="btnari" class="btn btn-light" type="button" >Options</button></div>
+        <div class="col-1"><button id="btnari" class="btn btn-light" type="button" >Récapitulatif</button></div>
+    </div>
+
     <div class="row">
         <div class="col-7"><div class="viewer" id="viewer"></div></div>   
         <div class="col-4"><div class="card" style="width: 27rem; height: 35em;">
             <div class="card-body">
-                <div class="elementSelector"><form>
-                    <button class="btn btn-light" type="button" id='but_coque' value="f_coque">Coque</button>
-                    <button class="btn btn-light" type="button" id='but_sofa' value="f_sofa">Sofa</button>
-                    <button class="btn btn-light" type="button" id='but_paillase' value="f_paillase">Paillase</button>
-                    <button class="btn btn-light" type="button" id='but_mur' value="f_mur">Mur</button>
-                    <button class="btn btn-light" type="button" id='but_sol' value="f_sol">Sol</button>
-                </form></div>
-            <br>
-            <div class ="textureSelector" id="textureSelector">
+                <div class="row">
+                    <div id="cat" class="col-12"><p class="nomCat">Votre aménagement intérieur</p></div>
+                </div>
+
+            <p class="nomSousCat">Plafond</p>
+            <input class="texture" type="image" src="./images/coque_beige.svg" id="f_coque_beige"/>
+            <input class="texture" type="image" src="./images/coque_blanc.png" id="f_coque_blanc"/>
+            <input class="texture" type="image" src="./images/coque_bleu.svg" id="f_coque_bleu"/>
+            <p class="nomSousCat">Mur</p>
+            <input class="texture" type="image" src="./images/bois_blanc.png" id="f_mur_bois_blanc"/>
+            <input class="texture" type="image" src="./images/bois_clair.png" id="f_mur_bois_clair"/>
+            <input class="texture" type="image" src="./images/chene.png" id="f_mur_chene"/>
+            
+            <p class="nomSousCat">Plan de travail</p>
+            <input class="texture" type="image" src="./images/chene.png" id="f_paillase_chene"/>
+            <input class="texture" type="image" src="./images/bois_blanc.png" id="f_paillase_bois_blanc"/>
+            <input class="texture" type="image" src="./images/bois_clair.png" id="f_paillase_bois_clair"/>
+            <p class="nomSousCat">Sol</p>
+            <input class="texture" type="image" src="./images/parquet.png" id="f_sol_parquet"/>
+            <input class="texture" type="image" src="./images/sol_blanc.png" id="f_sol_blanc"/>
+            <p class="nomSousCat">Sofa</p>
+            <input class="texture" type="image" src="./images/sofa_beige.png" id="f_sofa_beige"/>
+            <input class="texture" type="image" src="./images/sofa_blanc.png" id="f_sofa_blanc"/>
             </div>
             </div>
           </div>    
     </div>
     <div class="col-1"></div>
     </div>
+
+    <div class="row">
+        <div class="col-2"><div class="space"></div></div>
+        <div class="col-2"></div>
+        <div class="col-2"></div>
+        <div class="col-6"></div>
+        <div class="col-4"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-2"><button id="cam" class="btn btn-light" type="button" >Vue avant</button></div>
+        <div class="col-2"><button id="cam" class="btn btn-light" type="button" >Vue latéral</button></div>
+        <div class="col-2"><button id="cam" class="btn btn-light" type="button" >Vue arrière</button></div>
+        <div class="col-1"></div>
+        <div class="col-2"><button id="cons" class="btn btn-light" type="button" >Contacter le concessionaire</button></div>
+        <div class="col-2"><button id="cons" class="btn btn-light" type="button" >Demander un essai</button></div>
+    </div>
+
     <script src="js.js"></script>
     
 </body>

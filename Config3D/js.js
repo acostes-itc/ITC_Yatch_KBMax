@@ -165,4 +165,4 @@ $(document).click(function(){
     
 });
 */
-setElement("f_coque");
+//setElement("f_coque");
