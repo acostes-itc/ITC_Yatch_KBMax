@@ -89,6 +89,38 @@ html, body {
     color: white;
     margin-left: 0em;
     font-size: 22px;
+    clip-path: polygon(
+        0% 0%,
+        0% 0%,
+        75% 0%,
+        100% 50%,
+        75% 100%,
+        0% 100%);
+}
+
+#btnariDebut{
+    background-color: #1a57c0;
+    color: white;
+    margin-left: 0em;
+    font-size: 22px;
+    clip-path: polygon(
+        0% 0%,
+        75% 0%,
+        100% 50%,
+        75% 100%,
+        0% 100%);
+}
+#btnariFin{
+    background-color: #1a57c0;
+    color: white;
+    margin-left: 0em;
+    font-size: 22px;
+    clip-path: polygon(
+        0% 0%,
+        0% 0%,
+        100% 0%,
+        100% 100%,
+        0% 100%);
 }
 
 .btn{
@@ -108,11 +140,14 @@ html, body {
 #cons{
     color: rgb(225, 83, 241);
     font-weight: bold;
+    margin-top: 2.2em;
 }
 
 #cam{
     background-color: #1a57c0;
     color: white;
+    font-size: 20px;
+    margin-top: -1em;
 }
 
 #cat{
