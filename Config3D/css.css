@@ -2,12 +2,14 @@ html, body {
     background-color:blue;
     margin: 0;
     height: 100%; 
-    overflow: hidden
+    background-color: #134192 !important;
+    margin-top: 1em;
+    overflow: hidden;
 }
 
 #viewer {
-    height: 50%;
-    width: 50%;
+    height: 30em;
+    width: 50em;
     overflow: hidden;
 }
 
@@ -23,13 +25,38 @@ html, body {
 }
 
 .textureSelector{
-    border: double;
-    border-color: blue;
+    border: 2px solid white;
 
     display: flex;
 
     align-items: center;
     justify-content: space-around;
 
-    flex-flow: row wrap;
+    flex-flow: row wrap; 
+
+}
+
+.elementSelector{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-around;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.titre{
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: -2em;
+}
+.titre2{
+    color: white;
+    font-size: 35px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    
 }
