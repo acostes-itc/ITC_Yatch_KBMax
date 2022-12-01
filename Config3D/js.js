@@ -1,6 +1,5 @@
 var config;
 document.addEventListener("DOMContentLoaded", function() {
-    //start the embed
     config = new kbmax.ConfiguratorEmbed({
         kbmaxUrl: "https://itc-dev.kbmax.com",
         elementId: "viewer",
@@ -12,11 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
         loadStyle: "image",
         loadImage: "",
     });
-    /*
-    config.setFields({
-        "FieldName": "FieldValue"
-    });   
-    */
 });
 
 function setConfig(fieldName, fieldValue){
@@ -28,7 +22,8 @@ function setConfig(fieldName, fieldValue){
     else if (fieldName == "f_sol") config.setFields({ "f_sol" : fieldValue });
 }
 
-/* ************************************************ */
+    /* ************************************************ */
+
 var selectedElement;
 var indexElement;
 
@@ -59,9 +54,10 @@ const fsol_images = [
 
 const refElements_Textures = [ ["f_coque", "f_mur", "f_paillase", "f_sofa", "f_sol"], [fcoque_images, fmur_images, fpaillase_images, fsofa_images, fsol_images] ];
 
-/* ************************************************ */
+    /* ************************************************ */
 
 function setElement(param){
+    
     selectedElement = param;
 
     var fun = (element) => element == selectedElement;
@@ -92,10 +88,13 @@ function setElement(param){
 
     document.getElementById('textureSelector').innerHTML = htmlDiv;
     // <img class ="texture" id = 'f_mur_chene' src="./images/chene.png"/>
+    
 }
 
-$(document).ready(function(){
+    /* ************************************************ */
 
+function jEvents(){
+    console.log("*********** EVENTS *********")
     $("#but_coque").click(function(){ setElement($(this).val()); });
     
     $("#but_sofa").click(function(){ setElement($(this).val()); });
@@ -125,9 +124,45 @@ $(document).ready(function(){
 
     $("#f_sol_parquet").click(function(){ setConfig("f_sol", "parquet"); });
     $("#f_sol_blanc").click(function(){ setConfig("f_sol", "blanc"); });
+}
+
+$(document).ready(function(){ jEvents();});
+
+$(document).click(function(){ jEvents();});
+
+/*
+$(document).click(function(){
+
+    $("#but_coque").click(function(){ setElement($(this).val()); });
+    
+    $("#but_sofa").click(function(){ setElement($(this).val()); });
+
+    $("#but_paillase").click(function(){ setElement($(this).val()); });
+
+    $("#but_mur").click(function(){ setElement($(this).val()); });
+
+    $("#but_sol").click(function(){ setElement($(this).val()); });
+
+    /* ********************************************************************** /
+
+    $("#f_coque_blanc").click(function(){ setConfig("f_coque", "blanc"); });
+    $("#f_coque_beige").click(function(){ setConfig("f_coque", "beige"); });
+    $("#f_coque_bleu").click(function(){ setConfig("f_coque", "bleu"); });
+
+    $("#f_mur_chene").click(function(){ setConfig("f_mur", "chene"); });
+    $("#f_mur_bois_clair").click(function(){ setConfig("f_mur", "bois_clair"); });
+    $("#f_mur_bois_blanc").click(function(){ setConfig("f_mur", "bois_blanc"); });
+
+    $("#f_paillase_chene").click(function(){ setConfig("f_paillase", "chene"); });
+    $("#f_paillase_bois_clair").click(function(){ setConfig("f_paillase", "bois_clair"); });
+    $("#f_paillase_bois_blanc").click(function(){ setConfig("f_paillase", "bois_blanc"); });
+
+    $("#f_sofa_beige").click(function(){ setConfig("f_sofa", "beige"); });
+    $("#f_sofa_blanc").click(function(){ setConfig("f_sofa", "blanc"); });
+
+    $("#f_sol_parquet").click(function(){ setConfig("f_sol", "parquet"); });
+    $("#f_sol_blanc").click(function(){ setConfig("f_sol", "blanc"); });
     
 });
-
-setElement("f_sofa");
-
-// display : hidden / visible
+*/
+setElement("f_coque");
