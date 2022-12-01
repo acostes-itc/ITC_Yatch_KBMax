@@ -14,6 +14,7 @@ body{
     color: white;
     font-weight: bold;
     font-size: 45px;
+    margin-left: -7.5em;
 }
 .titre2{
     color: white;
@@ -56,11 +57,10 @@ body{
 .logo{
     width: 80px;
     height: 80px;
-    position:absolute;
+
 }
 
 @media only screen and (max-width: 1367px) {
-
 
     body{
         background-color: #134192 !important;
@@ -77,32 +77,36 @@ body{
     .titre{
         color: white;
         font-weight: bold;
-        font-size: 45px;
+        font-size: 28px;
+        margin-left: -7.5em;
     }
     .titre2{
         color: white;
-        font-size: 35px;
+        font-size: 22px;
     }
     
     .titre3{
         color: white;
-        font-size: 50px;
+        font-size: 32px;
         font-weight: bold;
     }
     
     .underline{
         margin-top: -50px;
         color: white;
-        font-size: 50px;
+        font-size: 32px;
         font-weight: bold;
     }
     
     .space{
-        height: 150px;
+        height: 70px;
     }
     
     .spaceButton{
-        height: 120px;
+        height: 100px;
+    }
+    .spaceUnderButton{
+        height: 30px;
     }
     
     .btnTxt{
@@ -110,18 +114,15 @@ body{
     }
     
     #src{
-        width: 55%;
-        height: 55%;
+        width: 43%;
+        height: 43%;
         float: right;
-        margin-top: -410px;
+        margin-top: -21em;
         margin-right: 40px;
     }
-    
     .logo{
         width: 80px;
         height: 80px;
-        position:absolute;
+        margin-top: -3em;
     }
-
-
 }
