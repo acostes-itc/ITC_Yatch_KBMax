@@ -77,24 +77,24 @@ body{
     .titre{
         color: white;
         font-weight: bold;
-        font-size: 28px;
-        margin-left: -7.5em;
+        font-size: 45px;
+        margin-left: 0;
     }
     .titre2{
         color: white;
-        font-size: 22px;
+        font-size: 35px;
     }
     
     .titre3{
         color: white;
-        font-size: 32px;
+        font-size: 50px;
         font-weight: bold;
     }
     
     .underline{
-        margin-top: -50px;
+        margin-top: -60px;
         color: white;
-        font-size: 32px;
+        font-size: 50px;
         font-weight: bold;
     }
     
@@ -106,7 +106,7 @@ body{
         height: 100px;
     }
     .spaceUnderButton{
-        height: 30px;
+        height: 120px;
     }
     
     .btnTxt{
