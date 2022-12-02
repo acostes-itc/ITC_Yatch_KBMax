@@ -60,7 +60,7 @@ body{
 
 }
 
-@media only screen and (max-width: 1367px) {
+@media only screen and (min-width: 1367px) {
 
     body{
         background-color: #134192 !important;
@@ -127,7 +127,7 @@ body{
     }
 }
 
-@media only screen and (min-width: 1368px) {
+@media only screen and (max-width: 1368px) {
 
     body{
         background-color: #134192 !important;
@@ -144,22 +144,24 @@ body{
     .titre{
         color: white;
         font-weight: bold;
-        font-size: 45px;
-        margin-left: 0.5em;
+        font-size: 35px;
+        margin-left: -4em;
     }
     .titre2{
         color: white;
-        font-size: 35px;
+        font-size: 32px;
+        margin-left: -2em;
     }
     
     .titre3{
         color: white;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
+        margin-top: 3em;
     }
     
     .underline{
-        margin-top: -60px;
+        margin-top: -70px;
         color: white;
         font-size: 50px;
         font-weight: bold;
@@ -178,19 +180,35 @@ body{
     
     .btnTxt{
         font-weight: bold;
+        width: 6em;
     }
     
     #src{
         width: 43%;
         height: 43%;
         float: right;
-        margin-top: -21em;
+        margin-top: -27em;
         margin-right: 40px;
     }
     .logo{
         width: 80px;
         height: 80px;
         margin-top: -3em;
-        margin-left: -3em;
+        position:absolute;
+        margin-left: -2em;
+    }
+
+    #evasion, #prestige, #elegance{
+        margin-top: -7em;
+    }
+
+    .logoTitre{
+        color:white;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        position:absolute;
+        margin-left: 8em;
+        margin-top: -1em;
     }
 }
