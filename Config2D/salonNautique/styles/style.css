@@ -12,6 +12,7 @@
     color:#134192;
     font-size: 25px;
     padding-top: 15px;
+
 }
 
 .fleche{
@@ -83,14 +84,15 @@ body{
     color:#134192;
     font-size: 20px;
     font-weight: bold;
-
+    padding-left: 2em;
 }
 
 .fleche{
-    margin-top: 0px;
+    margin-top: -3.5em;
     width: 75px;
     height: 75px;
     float: right;
+
 }
 
 body{
