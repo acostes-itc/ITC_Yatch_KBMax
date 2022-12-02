@@ -52,14 +52,15 @@ html, body {
 .titre{
     color: white;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 35px;
     margin-top: -2em;
     text-align: right;
 }
 .titre2{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     text-align: right;
+    margin-top: -0.5em;
 }
 
 .logo{
@@ -98,6 +99,7 @@ html, body {
         100% 50%,
         75% 100%,
         0% 100%);
+        height: 2.5em;
 }
 
 #btnariDebut{
@@ -111,6 +113,7 @@ html, body {
         100% 50%,
         75% 100%,
         0% 100%);
+    height: 2.5em;
 }
 #btnariFin{
     background-color: #1a57c0;
@@ -123,6 +126,7 @@ html, body {
         100% 0%,
         100% 100%,
         0% 100%);
+    height: 2.5em;
 }
 
 .btn{
@@ -142,10 +146,22 @@ html, body {
 #cons{
     color: rgb(225, 83, 241);
     font-weight: bold;
-    margin-top: 2.2em;
+    margin-top: -1em;
 }
 
-#cam{
+#cam1{
+    background-color: #1a57c0;
+    color: white;
+    font-size: 20px;
+    margin-top: -1em;
+}
+#cam2{
+    background-color: #1a57c0;
+    color: white;
+    font-size: 20px;
+    margin-top: -1em;
+}
+#cam3{
     background-color: #1a57c0;
     color: white;
     font-size: 20px;
@@ -170,4 +186,9 @@ html, body {
     margin-top: 0.7em;
     font-size: 25px;
     color: rgb(104, 80, 58);
+}
+
+.lien{
+    text-decoration: none;
+    color: white;
 }

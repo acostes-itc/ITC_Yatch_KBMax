@@ -53,6 +53,10 @@ body{
     position:absolute;
 }
 
+.lien{
+    text-decoration: none;
+    color: white;
+}
 
 @media only screen and (max-width: 1367px) {
 
@@ -80,7 +84,7 @@ body{
     color:#134192;
     font-size: 20px;
     font-weight: bold;
-    
+
 }
 
 .fleche{
@@ -111,6 +115,10 @@ body{
     width: 80px;
     height: 80px;
     position:absolute;
+}
+.lien{
+    text-decoration: none;
+    color: white;
 }
 
 }
