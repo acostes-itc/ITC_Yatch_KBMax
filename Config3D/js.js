@@ -69,11 +69,29 @@ function jEvents(){
     $("#f_sol_blanc").click(function(){ setConfig("f_sol", "blanc"); });
 
     /* ************************************************ */
+    const selectedColor = '#BEBEBE';
+    const unselectedColor = '#F5F5F5';
 
     // Boutons de vues
-    $("#cam1").click(function(){ setConfig("f_vue", 1); });
-    $("#cam2").click(function(){ setConfig("f_vue", 2); });
-    $("#cam3").click(function(){ setConfig("f_vue", 3); });
+    $("#cam1").click(function(){
+        setConfig("f_vue", 1);
+        document.getElementById('cam1').style.backgroundColor = selectedColor;
+        document.getElementById('cam2').style.backgroundColor = unselectedColor;
+        document.getElementById('cam3').style.backgroundColor = unselectedColor;
+    });
+    $("#cam2").click(function(){
+        setConfig("f_vue", 2);
+        document.getElementById('cam1').style.backgroundColor = unselectedColor;
+        document.getElementById('cam2').style.backgroundColor = selectedColor;
+        document.getElementById('cam3').style.backgroundColor = unselectedColor;
+    });
+    $("#cam3").click(function(){
+        setConfig("f_vue", 3);
+        document.getElementById('cam1').style.backgroundColor = unselectedColor;
+        document.getElementById('cam2').style.backgroundColor = unselectedColor;
+        document.getElementById('cam3').style.backgroundColor = selectedColor;
+
+    });
 
 }
 
