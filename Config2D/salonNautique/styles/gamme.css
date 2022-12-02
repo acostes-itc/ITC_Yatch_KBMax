@@ -126,3 +126,71 @@ body{
         margin-top: -3em;
     }
 }
+
+@media only screen and (max-width: 1368px) {
+
+    body{
+        background-color: #134192 !important;
+        padding-top: 70px;
+    }
+    
+    .fleche{
+        margin-top: 0px;
+        width: 75px;
+        height: 75px;
+        float: right;
+    }
+    
+    .titre{
+        color: white;
+        font-weight: bold;
+        font-size: 45px;
+        margin-left: 2em;
+    }
+    .titre2{
+        color: white;
+        font-size: 35px;
+    }
+    
+    .titre3{
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .underline{
+        margin-top: -60px;
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .space{
+        height: 70px;
+    }
+    
+    .spaceButton{
+        height: 100px;
+    }
+    .spaceUnderButton{
+        height: 120px;
+    }
+    
+    .btnTxt{
+        font-weight: bold;
+    }
+    
+    #src{
+        width: 43%;
+        height: 43%;
+        float: right;
+        margin-top: -21em;
+        margin-right: 40px;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+        margin-top: -3em;
+        margin-left: -3em;
+    }
+}
