@@ -48,6 +48,15 @@ body{
     color: white;
 }
 
+.logoTitre{
+    color:#134192;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.889em;
+    margin-left: 7em;
+}
+
 @media only screen and (max-width: 1367px) {
 
 .titre{
