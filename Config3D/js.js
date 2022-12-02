@@ -42,7 +42,7 @@ function setConfig(fieldName, fieldValue){ // Pour communniquer avec le configur
     else if (fieldName == "f_paillase") config.setFields({ "f_paillase" : fieldValue });
     else if (fieldName == "f_sofa") config.setFields({ "f_sofa" : fieldValue });
     else if (fieldName == "f_sol") config.setFields({ "f_sol" : fieldValue });
-    else if (fieldName == "f_vue") config.setFields({ "f_vue" : fieldValue});
+    else if (fieldName == "f_vue") config.setFields({ "f_vue" : fieldValue}); console.log(fieldValue);
 }
 
     /* ************************************************ */
@@ -71,9 +71,9 @@ function jEvents(){
     /* ************************************************ */
 
     // Boutons de vues
-    $("#cam1").click(function(){ setConfig("f_vue", "1"); });
-    $("#cam2").click(function(){ setConfig("f_vue", "2"); });
-    $("#cam3").click(function(){ setConfig("f_vue", "3"); });
+    $("#cam1").click(function(){ setConfig("f_vue", 1); });
+    $("#cam2").click(function(){ setConfig("f_vue", 2); });
+    $("#cam3").click(function(){ setConfig("f_vue", 3); });
 
 }
 
