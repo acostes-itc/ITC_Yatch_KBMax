@@ -303,7 +303,7 @@ html, body {
         display: flex;
         justify-content: space-around;
         flex-flow: row wrap;
-        width: 95%;
+        width: 90%;
         margin-top: 2.5em;
     }
     
@@ -383,6 +383,7 @@ html, body {
         font-weight: bold;
         margin-top: -1em;
         margin-left: 1em;
+        float: right;
     }
     
     #cam1{
