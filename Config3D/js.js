@@ -29,7 +29,7 @@ var indexElement;
 
 const fcoque_images = [
     ["blanc", "beige", "bleu"],
-    ["./images/coque_blanc.png", "./images/coque_beige.svg", "./images/coque_bleu.svg"]
+    ["./images/coque_blanc.png", "./images/coque_beige.svg", "./images/coque_bleu.png"]
 ];
 
 const fmur_images = [ 
@@ -55,7 +55,7 @@ const fsol_images = [
 const refElements_Textures = [ ["f_coque", "f_mur", "f_paillase", "f_sofa", "f_sol"], [fcoque_images, fmur_images, fpaillase_images, fsofa_images, fsol_images] ];
 
     /* ************************************************ */
-
+/*
 function setElement(param){
     
     selectedElement = param;
@@ -71,7 +71,7 @@ function setElement(param){
     console.log(indexElement);
     console.log(listTex);
     console.log("***");
-    */
+    * /
 
     var htmlLigne = "";
     var htmlDiv = "";
@@ -90,11 +90,12 @@ function setElement(param){
     // <img class ="texture" id = 'f_mur_chene' src="./images/chene.png"/>
     
 }
-
+*/
     /* ************************************************ */
 
 function jEvents(){
-    console.log("*********** EVENTS *********")
+    //console.log("*********** EVENTS *********")
+    /*
     $("#but_coque").click(function(){ setElement($(this).val()); });
     
     $("#but_sofa").click(function(){ setElement($(this).val()); });
@@ -104,7 +105,7 @@ function jEvents(){
     $("#but_mur").click(function(){ setElement($(this).val()); });
 
     $("#but_sol").click(function(){ setElement($(this).val()); });
-
+    */
     /* ********************************************************************** */
 
     $("#f_coque_blanc").click(function(){ setConfig("f_coque", "blanc"); });
