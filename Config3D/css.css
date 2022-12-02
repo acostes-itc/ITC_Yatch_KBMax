@@ -150,22 +150,30 @@ html, body {
 }
 
 #cam1{
-    background-color: #1a57c0;
+    background-color: white;
     color: white;
-    font-size: 20px;
+    font-size: 0px;
     margin-top: -1em;
+    height: 8px;
+    width: 30px;
+    margin-right: 10px;
 }
 #cam2{
-    background-color: #1a57c0;
+    background-color: white;
     color: white;
-    font-size: 20px;
+    font-size: 0px;
     margin-top: -1em;
+    height: 8px;
+    width: 30px;
+    margin-right: 10px;
 }
 #cam3{
-    background-color: #1a57c0;
+    background-color: white;
     color: white;
-    font-size: 20px;
+    font-size: 0px;
     margin-top: -1em;
+    height: 8px;
+    width: 30px;
 }
 
 #cat{
@@ -191,4 +199,8 @@ html, body {
 .lien{
     text-decoration: none;
     color: white;
+}
+
+#radio{
+    margin-top: -3em;
 }

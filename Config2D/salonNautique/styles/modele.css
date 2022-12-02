@@ -8,6 +8,16 @@ body{
     width: 75px;
     height: 75px;
     float: right;
+   
+}
+
+.flecheArrière{
+    margin-top: 0px;
+    width: 75px;
+    height: 75px;
+    float: right;
+    margin-right: 50px;
+    transform : rotate(180deg)
 }
 
 .titre{
