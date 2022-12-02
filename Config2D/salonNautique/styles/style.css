@@ -15,7 +15,7 @@
 }
 
 .fleche{
-    margin-top: -30px;
+    margin-top: 0px;
     width: 75px;
     height: 75px;
     float: right;
@@ -128,7 +128,7 @@ body{
         color:#134192;
         font-size: 20px;
         font-weight: bold;
-        margin-top: -1em;
+        margin-top: -0.5em;
     }
     
     .fleche{
