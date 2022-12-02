@@ -22,8 +22,8 @@ html, body {
 
 .texture{
     margin-right: 1em;
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     border-radius: 40%;
     border: 1px solid rgb(153, 153, 153);
 }
@@ -193,21 +193,18 @@ html, body {
 
 #cat{
     background-color: rgba(47, 104, 211, 0.358);
-    margin-right: 0;
-    margin-left: 0;
 }
 
 .nomCat{
     display: table-cell;
-    
     height: 3em;
-    font-size: 30px;
+    font-size: 22px;
     vertical-align: middle;
 }
 
 .nomSousCat{
     margin-top: 0.7em;
-    font-size: 25px;
+    font-size: 18px;
     color: rgb(104, 80, 58);
 }
 
@@ -245,8 +242,8 @@ html, body {
     
     .texture{
         margin-right: 1em;
-        height: 80px;
-        width: 80px;
+        height: 50px;
+        width: 50px;
         border-radius: 40%;
         border: 1px solid rgb(153, 153, 153);
     }
@@ -417,21 +414,19 @@ html, body {
     
     #cat{
         background-color: rgba(47, 104, 211, 0.358);
-        margin-right: 0;
-        margin-left: 0;
     }
     
     .nomCat{
         display: table-cell;
         
         height: 3em;
-        font-size: 30px;
+        font-size: 22px;
         vertical-align: middle;
     }
     
     .nomSousCat{
         margin-top: 0.7em;
-        font-size: 25px;
+        font-size: 18px;
         color: rgb(104, 80, 58);
     }
     
