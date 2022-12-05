@@ -447,7 +447,7 @@ html, body {
         margin: 0;
         height: 100%; 
         background-color: #134192 !important;
-        margin-top: 1em;
+        margin-top: -0.5em;
         overflow-x: hidden;
         overflow-y: scroll;
     }
