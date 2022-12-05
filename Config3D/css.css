@@ -162,7 +162,8 @@ html, body {
 }
 
 #cons{
-    color: rgb(225, 83, 241);
+    color:#1e7e8d;
+    /*color: rgb(225, 83, 241);*/
     font-weight: bold;
     margin-top: -2em;
     height: 4em;
@@ -418,7 +419,8 @@ html, body {
     }
     
     #cons{
-        color: rgb(225, 83, 241);
+        color:#1e7e8d;
+        /*color: rgb(225, 83, 241);*/
         font-weight: bold;
         margin-top: -1em;
         margin-left: 4.2em;
