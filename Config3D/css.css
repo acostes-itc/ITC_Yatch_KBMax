@@ -7,7 +7,7 @@ html, body {
 }
 
 #viewer {
-    height: 27em;
+    height: 25em;
     width: 50em;
     overflow: hidden;
     margin-top: 2em;
@@ -74,7 +74,7 @@ html, body {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    width: 27rem; height: 27em;
+    width: 27rem; height: 25em;
     
 }
 
@@ -87,6 +87,7 @@ html, body {
     width: 91%;
     margin-top: 2em;
     margin-left: 1.7em;
+    
 }
 
 #btnari{
@@ -211,7 +212,10 @@ html, body {
 .lien{
     text-decoration: none;
     color: white;
+    
 }
+
+.lien:hover {         color: white !important;       }
 
 #radio{
     margin-top: -3.5em;
@@ -220,7 +224,6 @@ html, body {
 .logo{
     width: 80px;
     height: 80px;
-
     margin-top: 2em;
     margin-left: -2em;
 }
