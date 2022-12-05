@@ -168,27 +168,26 @@ html, body {
     background-color: white;
     color: white;
     font-size: 0px;
-    margin-top: -1em;
-    height: 10px;
-    width: 40px;
+
+    height: 140px;
+    width: 200px;
     margin-right: 15px;
 }
 #cam2{
     background-color: white;
     color: white;
     font-size: 0px;
-    margin-top: -1em;
-    height: 10px;
-    width: 40px;
+
+    height: 140px;
+    width: 200px;
     margin-right: 15px;
 }
 #cam3{
     background-color: white;
     color: white;
     font-size: 0px;
-    margin-top: -1em;
-    height: 10px;
-    width: 40px;
+    height: 140px;
+    width: 180px;
 }
 
 #cat{
@@ -612,24 +611,24 @@ html, body {
     #cam1{
         background-color: white;
         color: white;
-        height: 80px;
-        width: 200px;
+        height: 120px;
+        width: 190px;
         margin-right: 15px;
         border:none;
     }
     #cam2{
         background-color: white;
         color: white;
-        height: 80px;
-        width: 200px;
+        height: 120px;
+        width: 190px;
         margin-right: 15px;
         border:none;
     }
     #cam3{
         background-color: white;
         color: white;
-        height: 80px;
-        width: 200px;
+        height: 120px;
+        width: 190px;
         border:none;
     }
     
@@ -656,7 +655,7 @@ html, body {
     }
     
     #radio{
-        margin-top: -1.5em;
+        margin-top: -3em;
         margin-left: -0.8em;
     }
     .logo{
