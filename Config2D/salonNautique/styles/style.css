@@ -1,7 +1,7 @@
 .titre{
     color:#134192;
     text-align: left;
-    font-size: 40px;
+    font-size: 90px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 1.889em;
@@ -70,17 +70,6 @@ body{
     margin-left: -1.3em;
 }
 
-
-.rectangle{
-    height: 100px;
-    width: 190px;
-    background: linear-gradient(to right, rgb(255, 255, 255), #134192);
-    display: table-cell;
-    vertical-align: middle;
-    margin-right: 0;
-    text-align: center;
-}   
-
 .text{
     color:#134192;
     font-size: 20px;
@@ -130,10 +119,10 @@ body{
     .titre{
         color:#134192;
         text-align: left;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
-        margin-top: 6em;
+        margin-top: 4em;
         margin-left: -20px;
     } 
     
@@ -141,13 +130,14 @@ body{
         color:#134192;
         font-size: 20px;
         font-weight: bold;
-        margin-top: -0.1em;
+        margin-top: -2em;
+        padding-left: 5em;
     }
     
     .fleche{
-        margin-top: 0px;
-        width: 35px;
-        height: 35px;
+        margin-top: -4em;
+        width: 75px;
+        height: 75px;
         float: right;
     }
     
@@ -159,10 +149,11 @@ body{
         bottom: 0;
         height: 100%;
         background-size: 65%;
+        overflow-y: hidden;
     }
     
     .space{
-        height: 180px;
+        height: 16em;
     }
     .space2{
         height: 0px;
