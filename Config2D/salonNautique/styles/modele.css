@@ -12,7 +12,7 @@ body{
 }
 
 .flecheArrière{
-    margin-top: -3em;
+    margin-top: 0em;
     width: 75px;
     height: 75px;
     float: right;
