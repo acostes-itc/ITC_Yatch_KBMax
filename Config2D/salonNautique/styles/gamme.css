@@ -13,51 +13,72 @@ body{
 .titre{
     color: white;
     font-weight: bold;
-    font-size: 45px;
-    margin-left: -7.5em;
+    font-size: 20px;
+    margin-left: -4em;
 }
 .titre2{
     color: white;
-    font-size: 35px;
+    font-size: 32px;
+    margin-left: -2em;
 }
 
 .titre3{
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
+    margin-top: 3em;
 }
 
 .underline{
-    margin-top: -50px;
+    margin-top: -70px;
     color: white;
     font-size: 50px;
     font-weight: bold;
 }
 
 .space{
-    height: 150px;
+    height: 70px;
 }
 
 .spaceButton{
+    height: 100px;
+}
+.spaceUnderButton{
     height: 120px;
 }
 
 .btnTxt{
     font-weight: bold;
+    width: 6em;
 }
 
 #src{
-    width: 55%;
-    height: 55%;
+    width: 43%;
+    height: 43%;
     float: right;
-    margin-top: -410px;
+    margin-top: -27em;
     margin-right: 40px;
 }
-
 .logo{
     width: 80px;
     height: 80px;
+    margin-top: -3em;
+    position:absolute;
+    margin-left: -2em;
+}
 
+#evasion, #prestige, #elegance{
+    margin-top: -7em;
+}
+
+.logoTitre{
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    margin-left: 8em;
+    margin-top: -1em;
 }
 
 @media only screen and (min-width: 1367px) {
@@ -65,10 +86,12 @@ body{
     body{
         background-color: #134192 !important;
         padding-top: 70px;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     
     .fleche{
-        margin-top: 0px;
+        margin-top: -1em;
         width: 75px;
         height: 75px;
         float: right;
@@ -77,33 +100,34 @@ body{
     .titre{
         color: white;
         font-weight: bold;
-        font-size: 45px;
-        margin-left: 0;
+        font-size: 25px;
+        margin-left: -10em;
     }
     .titre2{
         color: white;
-        font-size: 35px;
+        font-size: 22px;
     }
     
     .titre3{
         color: white;
-        font-size: 50px;
+        font-size: 30px;
         font-weight: bold;
+        margin-top: 2.2em;
     }
     
     .underline{
         margin-top: -60px;
         color: white;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
     }
     
     .space{
-        height: 70px;
+        height: 0px;
     }
     
     .spaceButton{
-        height: 100px;
+        height: 90px;
     }
     .spaceUnderButton{
         height: 120px;
@@ -117,7 +141,7 @@ body{
         width: 43%;
         height: 43%;
         float: right;
-        margin-top: -21em;
+        margin-top: -24em;
         margin-right: 40px;
     }
     .logo{

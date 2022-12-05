@@ -4,7 +4,7 @@ body{
 }
 
 .fleche{
-    margin-top: 0px;
+    margin-top: -1em;
     width: 75px;
     height: 75px;
     float: right;
@@ -12,7 +12,7 @@ body{
 }
 
 .flecheArrière{
-    margin-top: 0px;
+    margin-top: -3em;
     width: 75px;
     height: 75px;
     float: right;
@@ -67,7 +67,15 @@ body{
 .logo{
     width: 80px;
     height: 80px;
-
+}
+.logoTitre{
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    margin-left: 8em;
+    margin-top: -3.5em;
 }
 
 @media only screen and (max-width: 1367px) {
@@ -161,16 +169,18 @@ body{
     body{
         background-color: #134192 !important;
         padding-top: 70px;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     
     .fleche{
-        margin-top: 0px;
+        margin-top: -1em;
         width: 75px;
         height: 75px;
         float: right;
     }
     .flecheArrière{
-        margin-top: 0px;
+        margin-top: -3em;
         width: 75px;
         height: 75px;
         float: right;
@@ -181,36 +191,38 @@ body{
     .titre{
         color: white;
         font-weight: bold;
-        font-size: 45px;
-        margin-left: -3em;
+        font-size: 25px;
+        margin-left: -10em;
     }
     .titre2{
         color: white;
-        font-size: 35px;
+        font-size: 22px;
+        margin-left: -2em;
     }
     
     .titre3{
         color: white;
-        font-size: 50px;
+        font-size: 30px;
         font-weight: bold;
+        margin-top: 2.2em;
     }
     
     .underline{
         margin-top: -60px;
         color: white;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
     }
     
     .space{
-        height: 70px;
+        height: 0px;
     }
     
     .spaceButton{
-        height: 100px;
+        height: 90px;
     }
     .spaceUnderButton{
-        height: 120px;
+        height: 30px;
     }
     
     .btnTxt{
@@ -221,13 +233,12 @@ body{
         width: 43%;
         height: 43%;
         float: right;
-        margin-top: -21em;
+        margin-top: -18em;
         margin-right: 40px;
     }
     .logo{
         width: 80px;
         height: 80px;
         margin-top: -3em;
-        margin-left: -3em;
     }
 }

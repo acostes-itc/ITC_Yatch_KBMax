@@ -64,7 +64,6 @@ html, body {
 .logo{
     width: 80px;
     height: 80px;
-    
 }
 
 .card{
@@ -76,7 +75,10 @@ html, body {
     justify-content: space-around;
     flex-flow: row wrap;
     width: 27rem; height: 27em;
+    
 }
+
+.card::-webkit-scrollbar {  display: none;}
 
 #ariane{
     display: flex;
