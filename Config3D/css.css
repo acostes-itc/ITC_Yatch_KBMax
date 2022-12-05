@@ -267,7 +267,7 @@ html, body {
     
     #viewer {
         height: 35em;
-        width: 54em;
+        width: 62em;
         overflow: hidden;
         margin-top: 2em;
         padding-left: 2em;
@@ -329,12 +329,12 @@ html, body {
     .card{
         background-color: rgb(255, 255, 255);
         margin-top: 2em;
-        margin-left: 4em;
+        margin-left: 10em;
         overflow-y: scroll;
         display: flex;
         justify-content: space-around;
         flex-flow: row wrap;
-        width: 27rem; 
+        width: 20rem; 
         height: 35em;
     }
     
